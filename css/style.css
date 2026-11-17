@@ -1,0 +1,225 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f7f5f0;color:#282923;font-family:"Noto Sans TC",sans-serif;font-weight:300;line-height:1.9}a{color:inherit;text-decoration:none}.site-header{height:88px;padding:0 max(6vw,24px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e8e3d9;background:#f7f5f0}.brand{display:flex;align-items:center;gap:12px;font-family:"Noto Serif TC",serif;font-size:19px;font-weight:600;letter-spacing:.12em}.brand small{display:block;font:9px "Noto Sans TC",sans-serif;letter-spacing:.22em;color:#8d887c;margin-top:-2px}.brand-mark,.about-mark{display:grid;place-items:center;background:#28372f;color:#f7f5f0;width:42px;height:42px;font-family:"Noto Serif TC",serif;font-size:21px}.site-header nav{display:flex;gap:34px;font-size:13px;color:#777367}.site-header nav a{padding:8px 0}.site-header nav a.active,.site-header nav a:hover{color:#28372f;border-bottom:1px solid #9a8057}.hero{min-height:590px;display:grid;grid-template-columns:1fr 1fr;padding:60px max(8vw,30px);gap:7vw;align-items:center}.eyebrow{font-size:10px;letter-spacing:.2em;color:#9b8058;font-weight:600}.hero h1,.article-header h1{font-family:"Noto Serif TC",serif;font-size:clamp(34px,4.2vw,57px);line-height:1.45;letter-spacing:.06em;font-weight:500;margin:22px 0}.hero-text{max-width:420px;color:#777367;font-size:14px;line-height:2.2}.text-link{display:inline-flex;gap:22px;align-items:center;border-bottom:1px solid #9a8057;padding:7px 0;margin-top:24px;font-size:13px;letter-spacing:.08em;color:#39463d}.hero-visual{position:relative;padding:0 28px 28px 0}.photo-slot{position:relative;overflow:hidden;background:linear-gradient(135deg,#e9e2d5,#d7d0c2);display:grid;place-items:center;color:#777367;text-align:center}.photo-slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.photo-label{font-size:13px;letter-spacing:.08em;line-height:2}.photo-label small{font-size:10px;color:#898477}.hero-photo{height:390px;box-shadow:22px 22px 0 #e8e1d5}.vertical-note{position:absolute;right:0;top:10px;writing-mode:vertical-rl;font-size:9px;letter-spacing:.25em;color:#8c826f}.intro-strip{background:#28372f;color:#f7f5f0;padding:45px max(8vw,30px);display:flex;justify-content:space-between;align-items:center;gap:30px}.intro-strip .eyebrow{color:#c9b28d;white-space:nowrap}.intro-strip p{font-family:"Noto Serif TC",serif;font-size:21px;line-height:1.8;letter-spacing:.06em;margin:0}.section-wrap{max-width:1120px;margin:auto;padding-left:28px;padding-right:28px}.featured{padding-top:90px;padding-bottom:100px}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:30px}.section-heading h2,.about h2,.values h2{font:500 30px "Noto Serif TC",serif;letter-spacing:.08em;margin:5px 0}.section-heading .text-link{margin:0}.feature-card{display:grid;grid-template-columns:1.1fr .9fr;background:#eeebe3;min-height:360px}.feature-image{min-height:360px}.feature-copy{padding:45px 7%;align-self:center}.category{font-size:9px;letter-spacing:.16em;color:#9b8058}.feature-copy h3{font:500 27px/1.7 "Noto Serif TC",serif;letter-spacing:.05em}.feature-copy>p:not(.category){font-size:13px;color:#777367;line-height:2.2}.read-more{display:inline-block;margin-top:15px;font-size:12px;letter-spacing:.1em;border-bottom:1px solid #9a8057;padding-bottom:5px}.read-more b{padding-left:20px}.values{background:#eae6dc;padding:80px 0}.values-inner{text-align:center}.values h2{line-height:1.7;margin:15px 0 45px}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;text-align:left}.value-grid>div{border-top:1px solid #c9c1b2;padding-top:18px}.value-grid span{font:italic 13px Georgia;color:#9b8058}.value-grid h3{font:500 18px "Noto Serif TC",serif}.value-grid p,.about p{font-size:13px;color:#777367;line-height:2.2}.about{display:flex;align-items:center;gap:30px;padding-top:75px;padding-bottom:80px;max-width:900px}.about-mark{width:64px;height:64px;font-size:30px;flex-shrink:0}.about h2{font-size:24px}footer{border-top:1px solid #e5dfd4;padding:25px max(6vw,24px);display:flex;justify-content:space-between;align-items:center;color:#918b7f;font-size:10px;letter-spacing:.1em}.footer-brand{font-size:15px;color:#333}.footer-brand .brand-mark{width:34px;height:34px;font-size:17px}.article-main{max-width:900px;margin:auto;padding:35px 28px 80px}.article-topline{font-size:11px;color:#8b8579}.article-header{text-align:center;padding:55px 0 35px}.article-header h1{font-size:clamp(32px,4vw,48px);margin:18px 0}.article-deck{max-width:610px;margin:0 auto;color:#777367;font-size:14px;line-height:2.2}.article-meta{display:flex;justify-content:center;gap:15px;align-items:center;color:#918b7f;font-size:10px;margin-top:25px;letter-spacing:.1em}.article-meta i{width:3px;height:3px;border-radius:50%;background:#aa987b}.article-cover{height:460px}.photo-caption{font-size:10px;color:#999184;text-align:center;margin:10px 0 30px}.article-body{max-width:690px;margin:55px auto 0;font-size:15px;line-height:2.35;color:#55564f}.article-body p{margin:0 0 24px}.article-body .lead{font:500 17px/2.25 "Noto Serif TC",serif;color:#42463f;border-left:2px solid #a58b62;padding-left:22px;margin-bottom:55px}.article-body h2{font:500 24px/1.6 "Noto Serif TC",serif;color:#303b33;letter-spacing:.04em;margin:55px 0 22px}.article-photo{height:390px;margin:20px 0 8px}.photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}.pair-photo{height:250px}.photo-pair .photo-caption{text-align:left;margin:6px 0 0}.highlight-heading{color:#8b6840!important}.restaurant-info{background:#eeebe3;padding:28px 32px;margin:55px 0}.restaurant-info h3{font:500 22px "Noto Serif TC",serif;margin:5px 0 15px}.restaurant-info p{font-size:13px;margin:8px 0}.restaurant-info b{color:#39463d}.restaurant-info .info-note{font-size:11px;color:#8b8579;border-top:1px solid #d8d1c5;padding-top:14px;margin-top:18px}.article-body .ending{font-family:"Noto Serif TC",serif;font-size:17px;color:#39463d}.disclaimer{font-size:10px!important;color:#9b958a;border-top:1px solid #e2ddd3;padding-top:15px}.back-row{max-width:690px;margin:35px auto}.back-row .text-link{margin:0}@media(max-width:700px){.site-header{height:auto;min-height:75px;padding:15px 20px;align-items:flex-start;gap:15px;flex-direction:column}.site-header nav{gap:22px;font-size:12px}.hero{grid-template-columns:1fr;padding:55px 25px;gap:40px}.hero-photo{height:280px}.intro-strip{display:block;padding:35px 25px}.intro-strip p{font-size:18px;margin-top:15px}.featured{padding-top:60px;padding-bottom:65px}.section-heading{align-items:start;gap:15px;flex-direction:column}.section-heading h2{font-size:26px}.feature-card{grid-template-columns:1fr}.feature-image{min-height:250px}.feature-copy{padding:30px 25px}.feature-copy h3{font-size:23px}.value-grid{grid-template-columns:1fr;gap:18px}.values{padding:60px 0}.values h2{font-size:25px}.about{padding-top:55px;padding-bottom:55px;align-items:flex-start}.about h2{font-size:20px}footer{gap:15px;align-items:flex-start;flex-direction:column}.article-main{padding:25px 20px 55px}.article-header{padding:40px 0 25px}.article-header h1{font-size:30px}.article-deck{font-size:13px}.article-cover{height:260px}.article-body{margin-top:40px;font-size:14px}.article-body h2{font-size:21px;margin-top:42px}.article-photo{height:260px}.pair-photo{height:160px}.restaurant-info{padding:23px 20px}.photo-pair{gap:10px}.desktop-only{display:none}}
+
+/* =========================================
+   LYUC FOOD JOURNAL
+   照片完整展示設定
+   ========================================= */
+
+/* 有照片時，圖框依照照片實際比例呈現 */
+.photo-slot:has(img) {
+    display: block;
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+    overflow: visible;
+    background: transparent;
+}
+
+/* 照片完整顯示，不裁切、不變形 */
+.photo-slot img {
+    position: relative !important;
+    inset: auto !important;
+
+    display: block !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    max-width: 100% !important;
+    max-height: none !important;
+
+    object-fit: contain !important;
+    object-position: center center !important;
+
+    transform: none !important;
+}
+
+/* 有照片時隱藏原本的圖片提示文字 */
+.photo-slot:has(img) .photo-label {
+    display: none !important;
+}
+
+/* 首頁主視覺照片 */
+.hero-photo:has(img) {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+/* 首頁特色文章照片 */
+.feature-image:has(img) {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+/* 文章封面 */
+.article-cover:has(img) {
+    height: auto !important;
+}
+
+/* 文章內文照片 */
+.article-photo:has(img) {
+    height: auto !important;
+    margin: 20px 0 8px;
+}
+
+/* 雙欄照片 */
+.pair-photo:has(img) {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+/* 手機版同樣完整顯示 */
+@media (max-width: 700px) {
+    .hero-photo:has(img),
+    .feature-image:has(img),
+    .article-cover:has(img),
+    .article-photo:has(img),
+    .pair-photo:has(img) {
+        height: auto !important;
+        min-height: 0 !important;
+    }
+
+    .photo-slot img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+
+/* =====================================
+   文章照片重新編排
+   ===================================== */
+
+/* 牛舌、清蒸紅蟳：上下排列 */
+.photo-stack {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    width: 100%;
+    margin: 28px 0;
+}
+
+/* 焗烤扇貝、海膽握壽司：左右等寬 */
+.photo-pair-equal {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    width: 100%;
+    margin: 28px 0;
+}
+
+/* 照片框統一比例與尺寸 */
+.photo-pair-equal .pair-photo {
+    width: 100%;
+    height: auto !important;
+    min-width: 0;
+    margin: 0;
+}
+
+.photo-pair-equal .photo-slot {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: hidden;
+    background: #eeeae2;
+    position: relative;
+}
+
+/* 照片完整放入等大的框 */
+.photo-pair-equal .photo-slot img {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    transform: none !important;
+}
+
+/* 上下排列的照片完整顯示 */
+.photo-stack .pair-photo {
+    width: 100%;
+    height: auto !important;
+    margin: 0;
+}
+
+.photo-stack .photo-slot {
+    width: 100%;
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+    overflow: visible;
+    background: transparent;
+}
+
+.photo-stack .photo-slot img {
+    position: relative !important;
+    inset: auto !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+}
+
+/* 手機版：左右照片改為上下排列 */
+@media (max-width: 700px) {
+    .photo-pair-equal {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+}
+
+
+/* =====================================
+   焗烤扇貝、海膽握壽司：加大並排版
+   ===================================== */
+
+.photo-pair-equal {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 22px;
+    width: 100%;
+    margin: 35px 0;
+}
+
+.photo-pair-equal .pair-photo {
+    width: 100%;
+    margin: 0;
+    min-width: 0;
+}
+
+/* 加高照片框 */
+.photo-pair-equal .photo-slot:has(img) {
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 3 / 4 !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    background: #eeeae2;
+}
+
+/* 照片完整顯示 */
+.photo-pair-equal .photo-slot img {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+}
+
+/* 手機版上下排列 */
+@media (max-width: 700px) {
+    .photo-pair-equal {
+        grid-template-columns: 1fr !important;
+    }
+
+    .photo-pair-equal .photo-slot:has(img) {
+        aspect-ratio: 4 / 3 !important;
+    }
+}
+
